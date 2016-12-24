@@ -1,1 +1,1 @@
-# HTML-CSS-JavaScriptLearning
+# HTML/CSS/JavaScript Learning
