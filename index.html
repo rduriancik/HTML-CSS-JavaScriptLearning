@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    <!-- custom style -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <!-- http://getbootstrap.com/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>Robert Duriancik - Personal Website</title>
+
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar">
+
+       <nav id="navbar" role="navgation" class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapseNavbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Robert Duriancik</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="collapseNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+         </div> <!-- container -->
+       </nav>
+
+      <div class="container-fluid">
+          <div id="about" class="panel">
+            <div class="panel-body">
+            	<h1 class="text-center">About</h1>
+            	<div class="row">
+            		<div class="col-sm-2 col-sm-offset-3">
+	            		<img src="resources/programmer.png" alt="Programmer" class="img-responsive">
+            		</div>
+            		<div class="col-sm-3">
+	            		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare congue enim, nec interdum libero dignissim quis. Vestibulum ullamcorper sed urna eu auctor. Cras arcu sem, scelerisque vel neque vitae, pharetra tempor purus. Morbi imperdiet, sapien nec condimentum ultrices, dolor odio tristique felis, in efficitur tortor quam et nisi. Aenean rhoncus interdum arcu, et ultrices sapien porttitor at. Cras tincidunt neque arcu, sed pharetra ante facilisis ut. Nunc sit amet nibh porttitor, scelerisque urna sed, ullamcorper dolor. Praesent consectetur vehicula justo, sit amet porttitor est aliquam vitae. Vestibulum non arcu volutpat, vestibulum purus non, mattis est. Vivamus posuere diam est, ut ultrices orci sodales nec.</p>
+            		</div>
+            	</div>
+            </div>
+          </div>
+          <div id="portfolio" class="panel">
+            <div class="panel-body">
+	            <h1 class="text-center">Portfolio</h1>
+            	<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+            		<!-- carousel indicators -->
+            		<ol class="carousel-indicators">
+            			<li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+            			<li data-target="#portfolio-carousel" data-slide-to="1"></li>
+            		</ol>
+            		<!-- Wrapper for carousel items -->
+            		<div class="carousel-inner">
+            			<div class="item active">
+		             		<a href="#" target="_blank"><img src="resources/portfolio.png" alt="My portfolio website"></a>
+		             		<div class="carousel-caption">
+		             			<h3>My personal website</h3>
+		             		</div>
+		             	</div>
+            			<div class="item">
+		             		<a href="http://codepen.io/robkio/full/LkayYq/" target="_blank"><img src="resources/elonPage.png" alt="Elon Musk tribute page"></a>
+		             		<div class="carousel-caption">
+		             			<h3>Elon Musk Tribute Page</h3>
+		             		</div>
+		             	</div>
+	             	</div>
+	             	<!-- Carousel controls -->
+	             	<a class="carousel-control left" href="#portfolio-carousel" data-slide="prev">
+	             		<span class="glyphicon glyphicon-chevron-left"></span>
+             		</a>
+             		<a class="carousel-control right" href="#portfolio-carousel" data-slide="next">
+             			<span class="glyphicon glyphicon-chevron-right"></span>
+             		</a>
+             	</div>
+            </div>
+          </div>
+          
+          <div id="contact" class="panel">
+            <div class="panel-body">
+              <h1 class="text-center">Contact</h1>
+
+              <div class="col-sm-6 col-sm-offset-3">
+              <h3>Email</h3>
+	              <form>
+	                <div class="form-group">
+	                  <input type="email" class="form-control" placeholder="Enter email">
+	                </div>
+	                <div class="form-group">
+	                  <textarea class="form-control" rows="10" placeholder="Message"></textarea>
+	                </div>
+	                <button action="submit" class="btn btn-default">Send</button>
+	              </form>
+              </div>
+
+              <div class="col-sm-12">
+	              <h3 class="text-center">Social Media</h3>
+	              <div class="row">
+	                	<div class="text-center">
+		                    <a href="https://facebook.com/duriancik" target="_blank" role="button"><img src="resources/facebook.png" alt="facebook" height="42" width="42"></a>
+		                    <a href="https://twitter.com/RDuriancik" target="_blank" role="button"><img src="resources/twitter.png" alt="twitter" height="42" width="42"></a>
+		                    <a href="https://github.com/rduriancik" target="_blank" role="button"><img src="resources/github.png" alt="github" height="42" width="42"></a>
+		                    <a href="https://linkedin.com/in/rduriancik" target="_blank" role="button"><img src="resources/linkedin.png" alt="linkedin" height="42" width="42"></a>
+	                	</div>
+	              </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+      <div class="container">
+        <h4 class="text-center">Robert Duriancik <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016. All Rights Reversed</h4>
+      </div>
+
+    </body>
+</html>
