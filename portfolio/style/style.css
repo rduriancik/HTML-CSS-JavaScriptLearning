@@ -21,17 +21,16 @@ nav {
     margin: 0 auto; 
 }
 
-.carousel-caption {
+.carousel-caption {;
     margin-top: 30px;
     right: auto !important;
     left: auto !important;
     position: relative !important;
 }
 
-.carousel-caption h3 {
+.carousel-caption h4 {
     color: #FFFFFF;
-    margin-top: 0px;
-    font-size: 2.2em;
+    margin-top: -10px;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -67,4 +66,3 @@ nav {
     margin-bottom: 20px;
     font-size: 130%;
 }
-
