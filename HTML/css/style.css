@@ -1,5 +1,23 @@
+/*
 p {
     color: red;
     font-weight: bold;
     font-size: 24px;
+}*/
+
+body {
+    background: black;
+}
+
+/*
+p {
+    color: red;
+}
+
+h1 {
+    color: green;
+}*/
+
+p, h1 {
+    color: red;
 }
