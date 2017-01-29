@@ -13,3 +13,8 @@
     border:  2px solid red;
     border-radius:  5px;
 }
+
+#picture-css {
+    background-image: url(../images/image1.png);
+    width: 900px;
+}
