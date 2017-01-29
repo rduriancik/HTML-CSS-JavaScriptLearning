@@ -16,5 +16,7 @@
 
 #picture-css {
     background-image: url(../images/image1.png);
-    width: 900px;
+    width: 923px;
+    height:  428px;
+    margin:  0 auto;
 }
