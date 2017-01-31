@@ -12,7 +12,8 @@ body {
 .container {
     width: 780px;
     margin: 0 auto;
-    background: #FFF;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px 0px;
 }
 
 .header {
@@ -48,6 +49,12 @@ h1 {
     font-size: 24px;
     font-family: "Arial Narrow", "Myriad Pro";
     font-weight: normal;
+}
+
+.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 h2 {
@@ -112,4 +119,30 @@ footer a:hover {
 
 #about-page .description {
     clear: both;
+}
+
+/******** Contact Page Styles ********/
+#contact-page #form {
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+#contact-page #form input {
+    width: 83%;
+    height: 20px;
+}
+
+#contact-page #form {
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-size: 14px;
+}
+
+#contact-page #form #submit {
+    width: 30%;
+    border-radius: 2px;
+    border: 1px outset;
+    background: rgb(243, 242, 242);
+    height: 30px;
+    box-shadow: 1px 1px 2px 0px;
 }
